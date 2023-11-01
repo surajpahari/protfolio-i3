@@ -1,11 +1,18 @@
 import React from 'react'
+import Link from 'next/link'
+import { About } from './About'
 const page = (props: {}) => {
   return (
     <div className='flex justify-center h-full items-center bg-yellow-300'>
-      <div className='text-white text-3xl font-bold'>
-        WorkSpace 2
+      <About />
+      <div className='bg-teal-500 absolute bottom-0 right-0'>
+        <Link
+          href='/'
+        >
+          Back to home
+        </Link>
       </div>
-    </div>
+    </div >
   )
 }
 export default page

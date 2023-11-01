@@ -23,21 +23,39 @@ const Polybar = ({ children }: { children: React.ReactNode, isVisible: any }) =>
       <div className='flex h-full flex-col'>
         <div className='bg-gray-900 flex pr-2'>
           <div className={`${pathName === '/workspace/workspace1' ? 'bg-gray-500' : 'bg-gray-900'}`}>
-            <Link href='/workspace/workspace1' className='p-2'>1</Link>
+            <Link href='/workspace/workspace1' className='p-2'>intro</Link>
+          </div>
+          <div>
+            |
+          </div>
+          <div className={`${pathName === '/workspace/workspace5' ? 'bg-gray-500' : 'bg-gray-900'}`}>
+            <Link href='/workspace/workspace5' className='p-2'>works</Link>
+          </div>
+          <div>
+            |
           </div>
           <div className={`${pathName === '/workspace/workspace2' ? 'bg-gray-500' : 'bg-gray-900'}`}>
-            <Link href='/workspace/workspace2' className='p-2'>2</Link>
+            <Link href='/workspace/workspace2' className='p-2'>about</Link>
+          </div>
+          <div>
+            |
           </div>
           <div className={`${pathName === '/workspace/workspace3' ? 'bg-gray-500' : 'bg-gray-900'}`}>
-            <Link href='/workspace/workspace3' className='p-2'>3</Link>
+            <Link href='/workspace/workspace3' className='p-2'>blogs</Link>
           </div>
-
-          <div className='grow flex justify-end'>
-
+          <div>
+            |
+          </div>
+          <div className={`${pathName === '/workspace/workspace4' ? 'bg-gray-500' : 'bg-gray-900'}`}>
+            <Link href='/workspace/workspace4' className='p-2'>contacts</Link>
+          </div>
+          <div>
+            |
+          </div>
+          <div className='grow hidden justify-end md:flex'>
             <div className='mr-2'>
               {time.toLocaleDateString()}
             </div>
-
             <div>
               {time.toLocaleTimeString('en-US', {
                 hour: 'numeric',

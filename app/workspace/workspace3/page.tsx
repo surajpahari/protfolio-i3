@@ -1,11 +1,10 @@
+import Link from 'next/link'
 import React from 'react'
-import Test from './test'
+import Blog from './Blog'
 const page = (props: {}) => {
   return (
     <div className='flex justify-center h-full items-center bg-sky-300'>
-      <div className='text-white text-3xl font-bold'>
-        WorkSpace 3
-      </div>
+      <Blog />
     </div>
   )
 }
