@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Introduction from './Introduction'
 
 const page = (props: {}) => {
   return (
@@ -15,7 +16,7 @@ const page = (props: {}) => {
 
       <div className='absolute top-0  p-20 h-full w-full'>
         <div className='w-full h-full border border-blue-500 bg-slate-800 rounded'>
-          Hellow
+          <Introduction />
         </div>
       </div>
     </div >

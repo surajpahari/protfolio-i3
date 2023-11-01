@@ -23,7 +23,7 @@ const Polybar = ({ children }: { children: React.ReactNode, isVisible: any }) =>
       <div className='flex h-full flex-col'>
         <div className='bg-gray-900 flex pr-2'>
           <div className={`${pathName === '/workspace/workspace1' ? 'bg-gray-500' : 'bg-gray-900'}`}>
-            <Link href='/workspace/workspace1' className='p-2'>intro</Link>
+            <Link href='/workspace/workspace1' className=''>intro</Link>
           </div>
           <div>
             |
