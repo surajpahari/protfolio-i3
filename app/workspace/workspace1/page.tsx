@@ -4,8 +4,8 @@ import Introduction from './Introduction'
 
 const page = (props: {}) => {
   return (
-    <div className="relative h-full">
-      <div className='font-bold text-green-500 flex mb-1 opacity-60'>
+    <div className="relative h-full bg-gray-800">
+      <div className='font-bold text-green-500 flex mb-1 opacity-30'>
         <div>
           [zyrex@basement&#160;&#160;<span className='text-white'>Introduction</span> &#160;]$ &#160;
         </div>
@@ -14,8 +14,8 @@ const page = (props: {}) => {
         </div>
       </div>
 
-      <div className='absolute top-0  p-20 h-full w-full'>
-        <div className='w-full h-full border border-blue-500 bg-slate-800 rounded'>
+      <div className='absolute top-0  md:p-20 sm:p-0 sm:pt-10 h-full w-full'>
+        <div className='w-full min-h-full border border-blue-500 bg-slate-800 rounded'>
           <Introduction />
         </div>
       </div>

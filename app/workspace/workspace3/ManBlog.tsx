@@ -1,4 +1,5 @@
 import React from 'react'
+import { Blogs } from './config'
 import Link from 'next/link'
 
 export const ManBlog = (props: {}) => {
@@ -7,7 +8,7 @@ export const ManBlog = (props: {}) => {
       <div>
         <div className='flex justify-center'>
           <div>
-            Posts(1)
+            Blogs(1)
           </div>
           <div className='grow'>
             <div className='flex justify-center'>
@@ -15,72 +16,31 @@ export const ManBlog = (props: {}) => {
             </div>
           </div>
           <div>
-            Posts(1)
+            Blogs(1)
           </div>
         </div>
         <div className='mt-4 p-2'>
-          <div className='mb-2 text-lg font-bold'>
+          <div className='mb-4 text-lg font-bold'>
             Blogs
           </div>
-          <div className='ml-4 '>
-
-            <div className='group'>
-              <Link href="/workspace/workspace3/readblogs">
-                <div className='text-lg font-bold group-hover:underline'>
-                  1.Blog Writing
+          <div className='ml-4'>
+            {
+              Blogs.map((blog, index) => (
+                <div className='group mb-2'>
+                  <Link href="/workspace/workspace3/readblogs">
+                    <div className='text-md font-bold group-hover:underline'>
+                      {(index + 1) + ". " + blog.title}
+                    </div>
+                    <div className='ml-4'>
+                      {blog.description}
+                    </div>
+                    <div className='ml-4 text-gray-500'>
+                      {blog.date}
+                    </div>
+                  </Link>
                 </div>
-                <div className='ml-4'>
-                  Things to consider while writing blogs....
-                </div>
-                <div className='ml-4 text-gray-500'>
-                  Oct-28 2023
-                </div>
-              </Link>
-            </div>
-
-            <div className='group'>
-              <Link href="/workspace/workspace3/readblogs">
-                <div className='text-lg font-bold group-hover:underline'>
-                  1.Blog Writing
-                </div>
-                <div className='ml-4'>
-                  Things to consider while writing blogs....
-                </div>
-                <div className='ml-4 text-gray-500'>
-                  Oct-28 2023
-                </div>
-              </Link>
-            </div>
-
-            <div className='group'>
-              <Link href="/workspace/workspace3/readblogs">
-                <div className='text-lg font-bold group-hover:underline'>
-                  1.Blog Writing
-                </div>
-                <div className='ml-4'>
-                  Things to consider while writing blogs....
-                </div>
-                <div className='ml-4 text-gray-500'>
-                  Oct-28 2023
-                </div>
-              </Link>
-            </div>
-
-
-            <div className='group'>
-              <Link href="/workspace/workspace3/readblogs">
-                <div className='text-lg font-bold group-hover:underline'>
-                  1.Blog Writing
-                </div>
-                <div className='ml-4'>
-                  Things to consider while writing blogs....
-                </div>
-                <div className='ml-4 text-gray-500'>
-                  Oct-28 2023
-                </div>
-              </Link>
-            </div>
-
+              ))
+            }
           </div>
         </div>
       </div>
