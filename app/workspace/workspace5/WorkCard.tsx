@@ -11,9 +11,9 @@ const WorkCard = () => {
 
   return (
     <>
-      <div className=' flex-col bg-gray-800 w-80 h-90 rounded-lg shadow-2xl cursor-pointer group'>
-        <div className="flex-col h-full">
-          <div className="grow">
+      <div className=' flex-col bg-gray-800 w-80 h-96 rounded-lg shadow-2xl cursor-pointer group'>
+        <div className="h-full">
+          <div className="">
             <div className='bg-blue w-full h-32 bg-gray-800 rounded group-hover:h-20 transition-[height]'>
               <div className='h-full flex justify-center items-center'>
                 <div className='text-3xl font-bold text-slate-200'>
@@ -77,7 +77,7 @@ const WorkCard = () => {
                     </div>
                     <div className="bg-orange-500 w-20">
                     </div>
-                    <div className="bg-purple-900 w-20">
+                    <div className="bg-purple-900 w-20 rounded-r">
                     </div>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const WorkCard = () => {
             </div>
           </div>
 
-          <div className="grow-0 mb-4">
+          <div className="mb-4">
             {/* buttom section buttons*/}
             <div className='gap-8 flex items-center justify-center mt-8'>
               <div className="relative">

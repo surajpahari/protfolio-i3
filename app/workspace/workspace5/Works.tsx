@@ -8,7 +8,7 @@ export const Work = (props: {}) => {
   return (
 
     <div className="relative h-full">
-      <div className='font-bold text-green-500 flex mb-1 opacity-30'>
+      <div className='font-bold text-green-500 flex mb-1 opacity-40'>
         <div>
           [zyrex@basement&#160;&#160;<span className='text-white'>Works</span> &#160;]$ &#160;
         </div>
@@ -16,11 +16,15 @@ export const Work = (props: {}) => {
           ./presentWorks
         </div>
       </div>
-      <div className='absolute top-0  p-20 h-full w-full text-slate-200'>
-        <div className='border border-sky-500 bg-gray-700 rounded p-2 flex gap-1 shadow-2xl'>
-          <div className='mb-4 flex gap-2'>
-            <WorkCard />
-            <WorkCard />
+      <div className='absolute top-0  md:p-16  sm:p-1 sm:pt-6 h-full w-full text-slate-200'>
+        <div className='h-full w-full bg-gray-700 rounded border border-sky-500 flex items-center justify-center'>
+          <div className='p-2 flex gap-1 '>
+            <div className='mb-4 grid md:grid-cols-3  gap-3'>
+              <WorkCard />
+              <WorkCard />
+              <WorkCard />
+
+            </div>
           </div>
         </div>
       </div>
