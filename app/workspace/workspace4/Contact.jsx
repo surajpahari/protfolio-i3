@@ -21,7 +21,7 @@ const Contact = () => {
                 Full Name
               </div>
               <div>
-                <input placeholder="full name " className="w-full p-2 rounded" />
+                <input placeholder="full name " className="w-full p-2 rounded outline-none" />
               </div>
             </div>
 
@@ -30,7 +30,7 @@ const Contact = () => {
                 Email
               </div>
               <div className="w-full">
-                <input placeholder="email" className="w-full p-2 rounded" />
+                <input placeholder="email" className="w-full p-2 rounded outline-none" />
               </div>
             </div>
             <div className="p-1">
@@ -38,7 +38,8 @@ const Contact = () => {
                 Message
               </div>
               <div>
-                <textarea className="w-full text-blue-500 p-2 rounded" />
+
+                <textarea class="block w-full h-32 p-2 text-sm border overflow-y-auto outline-none resize-none rounded-md focus:outline-none" placeholder="Enter your text here"></textarea>
               </div>
             </div>
             <div className="flex justify-end">

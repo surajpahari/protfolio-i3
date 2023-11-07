@@ -8,7 +8,7 @@ export const Work = (props: {}) => {
   return (
 
     <div className="relative h-full bg-gray-800">
-      <div className='font-bold text-green-500 flex mb-1 opacity-40'>
+      <div className='font-bold text-green-500 flex mb-1 opacity-40 p-1'>
         <div>
           [zyrex@basement&#160;&#160;<span className='text-white'>Works</span> &#160;]$ &#160;
         </div>

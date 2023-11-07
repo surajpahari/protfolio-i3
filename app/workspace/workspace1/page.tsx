@@ -5,7 +5,7 @@ import Introduction from './Introduction'
 const page = (props: {}) => {
   return (
     <div className="relative h-full bg-gray-800">
-      <div className='font-bold text-green-500 flex mb-1 opacity-30'>
+      <div className='font-bold text-green-500 flex mb-1 opacity-30 p-1'>
         <div>
           [zyrex@basement&#160;&#160;<span className='text-white'>Introduction</span> &#160;]$ &#160;
         </div>
