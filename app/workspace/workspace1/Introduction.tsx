@@ -2,14 +2,14 @@ import React from 'react'
 
 const Introduction = (props: {}) => {
   return (
-    <div>
+    <div className='h-full'>
       <div className='flex justify-center'>
         <div>
           Introduction(1)
         </div>
         <div className='grow'>
           <div className='flex justify-center'>
-            BSD General Commands Manual
+            General Commands Manual
           </div>
         </div>
         <div>
@@ -18,7 +18,7 @@ const Introduction = (props: {}) => {
       </div>
       <div className='mt-8'>
         <h1 className="text-lg font-bold uppercase">Name</h1>
-        <p className="mt-2 ml-12">surajpahari noice</p>
+        <p className="mt-2 ml-12">surajpahari</p>
       </div>
       <div className='mt-7'>
         <h1 className="text-lg font-bold uppercase">SYNOPSIS</h1>
@@ -42,7 +42,7 @@ const Introduction = (props: {}) => {
           </li>
 
           <li>
-            FRAMEWORKS/LIBRARIES: Laravel, Bootstrap, Reactjs, Tailwind-CSS, NodeJs, Express
+            FRAMEWORKS/LIBRARIES: Reactjs, Tailwind-CSS, NodeJs, NextJs, Laravel
           </li>
 
           <li>
@@ -62,22 +62,23 @@ const Introduction = (props: {}) => {
 
       <div className='mt-7'>
         <h1 className="text-lg font-bold uppercase">ENVIRONMENT</h1>
-        <p className="mt-2 ml-12">suraj [OPTIONS]....</p>
         <ul className='list-disc mt-2 ml-12'>
+
+
+
+          {/*<li>
+          </li>*/}
+
           <li>
-            PROGRAMMING LANGUAGES: JS, PHP, Python
+            OS: Manjaro Linux
           </li>
 
           <li>
-            FRAMEWORKS/LIBRARIES: Laravel, Bootstrap, Reactjs, Tailwind-CSS, NodeJs, Express
+            Terminal Emulator: iTerm2
           </li>
 
           <li>
-            DATABASES: MySQL, MongoDB
-          </li>
-
-          <li>
-            TOOLS: Git, Linux
+            Text Editor: NeoVim
           </li>
         </ul>
 
