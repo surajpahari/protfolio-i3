@@ -28,9 +28,10 @@ const Polybar = ({ children }: { children: React.ReactNode, isVisible: any }) =>
           <div className={`${pathName === '/workspace/workspace5' ? 'bg-gray-500' : 'bg-gray-900'} border-r border-white p-1`}>
             <Link href='/workspace/workspace5' className='p-1'>works</Link>
           </div>
-          <div className={`${pathName === '/workspace/workspace2' ? 'bg-gray-500' : 'bg-gray-900'} border-r border-white p-1`}>
+          {/*<div className={`${pathName === '/workspace/workspace2' ? 'bg-gray-500' : 'bg-gray-900'} border-r border-white p-1`}>
             <Link href='/workspace/workspace2' className='p-1'>about</Link>
           </div>
+              */}
           <div className={`${pathName.startsWith('/workspace/workspace3') ? 'bg-gray-500' : 'bg-gray-900'} border-r border-white p-1`}>
             <Link href='/workspace/workspace3' className='p-1'>blogs</Link>
           </div>
