@@ -2,7 +2,7 @@ import React from 'react'
 
 const Introduction = (props: {}) => {
   return (
-    <div className='h-full'>
+    <div className='min-h-full'>
       <div className='flex justify-center'>
         <div>
           Introduction(1)
@@ -86,9 +86,11 @@ const Introduction = (props: {}) => {
 
       <div className='mt-7'>
         <h1 className="text-lg font-bold uppercase">EXIT STATUS</h1>
-        <p className="mt-2 ml-12">
+        <p className="mt-2 ml-12 mb-2">
           suraj exists 0 on success, and tries hard not to cry if an error occurs.
         </p>
+      </div>
+      <div className='h-4 w-full'>
       </div>
     </div >
   )

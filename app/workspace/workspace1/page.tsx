@@ -4,7 +4,7 @@ import Introduction from './Introduction'
 
 const page = (props: {}) => {
   return (
-    <div className='h-full bg-gray-800 p-1'>
+    <div className='bg-gray-800 p-1 h-full'>
       <Introduction />
     </div>
   )

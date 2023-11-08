@@ -1,14 +1,10 @@
 import React from 'react'
-import Contact from './Contact.jsx'
-import Link from 'next/link'
-
+import Contact from './Contact'
 const page = (props: {}) => {
   return (
-    <div className="w-full h-full bg-gray-800">
+    <div className=' h-full  '>
       <Contact />
     </div>
   )
 }
-
-
 export default page

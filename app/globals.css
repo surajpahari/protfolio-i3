@@ -26,12 +26,21 @@ body {
     rgb(var(--background-start-rgb));
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
-body::-webkit-scrollbar {
+.mainsection::-webkit-scrollbar {
+  display: none;
+}
+.window::-webkit-scrollbar {
   display: none;
 }
 
+
+
 /* Hide scrollbar for IE, Edge and Firefox */
-body{
+.mainsection{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.window{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
