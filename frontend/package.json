@@ -12,9 +12,11 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "express": "^4.18.2",
     "framer": "^2.4.1",
     "motion": "^10.16.4",
     "next": "14.0.0",
+    "next-auth": "^4.24.4",
     "react": "^18",
     "react-dom": "^18",
     "react-simple-typewriter": "^5.0.1"

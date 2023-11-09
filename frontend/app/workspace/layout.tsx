@@ -15,14 +15,7 @@ const WindowLayout = ({ children }: { children: React.ReactNode, isVisible: any 
           </div>
         </div>
       </div>
-      <div className='flex flex-col'>
-        <div>
-        </div>
-        <div className='grow'>
-          <div className='h-full '>
-          </div>
-        </div>
-      </div>
+
 
     </>
   )
