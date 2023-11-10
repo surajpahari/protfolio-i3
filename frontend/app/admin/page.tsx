@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const page = (props: {}) => {
   return (
@@ -32,7 +33,11 @@ const page = (props: {}) => {
         <div className="flex justify-end">
           <div className="border border-blue-500 p-2 rounded">
             <button className='cursor-pointer'>
-              Login
+              <Link
+                href="admin/dashboard"
+              >
+                Login
+              </Link>
             </button>
           </div>
         </div>

@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-
+const authMiddleware = require('./middleware/auth.middleware')
+app.use(authMiddleware)
 app.get('/', (req, res) => {
   res.status(500).json({ message: "Error" })
   res.send("This is expressJs")
