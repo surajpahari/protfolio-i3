@@ -1,9 +1,7 @@
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/workspace/workspace5/page": "app/workspace/workspace5/page.js",
-  "/workspace/workspace3/page": "app/workspace/workspace3/page.js",
-  "/workspace/workspace4/page": "app/workspace/workspace4/page.js",
+  "/admin/page": "app/admin/page.js",
   "/admin/dashboard/works/page": "app/admin/dashboard/works/page.js",
-  "/workspace/workspace1/page": "app/workspace/workspace1/page.js",
-  "/admin/dashboard/page": "app/admin/dashboard/page.js"
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/dashboard/blogs/page": "app/admin/dashboard/blogs/page.js"
 }

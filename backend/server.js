@@ -1,11 +1,10 @@
 const express = require('express')
 const app = express()
-const authMiddleware = require('./middleware/auth.middleware')
-app.use(authMiddleware)
 app.get('/', (req, res) => {
   res.status(500).json({ message: "Error" })
   res.send("This is expressJs")
 })
-const adminRouter = require('./routes/admin')
-app.use('/admin', adminRouter)
-app.listen(3000)
+app.post('/create', (req, res) => {
+  res.send('la thik cha')
+})
+app.listen(4000)

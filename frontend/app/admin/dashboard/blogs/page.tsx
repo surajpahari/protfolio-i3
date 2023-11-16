@@ -11,6 +11,25 @@ const page = (props: {}) => {
           />
         </div>
         <div>
+          <form method='post' action={'http://localhost:4000/create'} className='text-black'>
+            <div className='m-2'>
+              <input placeholder='about' name='about' />
+            </div>
+            <div className='m-2'>
+              <input placeholder='title' name='title' />
+            </div>
+            <div className='m-2'>
+              <input placeholder='content' name='content' />
+            </div>
+            <div className='m-2'>
+              <input placeholder='uploaded At' name='uploadedAt' />
+            </div>
+            <div>
+              <input type='submit' className='rounded bg-green-500 m-2 p-2 cursor-pointer' />
+            </div>
+          </form>
+        </div>
+        <div>
           Add blogs
         </div>
       </div>
