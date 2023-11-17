@@ -1,6 +1,5 @@
 //import the model 
 const Blog = require('../models/blog.model.js')
-
 exports.create = (req, res) => {
   if (!req.body) {
     res.status(400).send({
