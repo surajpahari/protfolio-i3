@@ -7,7 +7,7 @@ export const ManBlog = (props: {}) => {
     <div className='bg-gray-800 h-full w-full p-1'>
       <div>
         <div className='flex justify-center'>
-          <div>
+          <div className='sm:hidden md:block hidden'>
             Blogs(1)
           </div>
           <div className='grow'>
@@ -15,7 +15,7 @@ export const ManBlog = (props: {}) => {
               BSD General Commands Manual
             </div>
           </div>
-          <div>
+          <div className='sm:hidden md:block hidden'>
             Blogs(1)
           </div>
         </div>

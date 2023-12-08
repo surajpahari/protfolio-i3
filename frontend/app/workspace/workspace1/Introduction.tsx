@@ -4,7 +4,7 @@ const Introduction = (props: {}) => {
   return (
     <div className='min-h-full'>
       <div className='flex justify-center'>
-        <div>
+        <div className='md:block sm:hidden hidden'>
           Introduction(1)
         </div>
         <div className='grow'>
@@ -12,7 +12,7 @@ const Introduction = (props: {}) => {
             General Commands Manual
           </div>
         </div>
-        <div>
+        <div className='md:block sm:hidden hidden'>
           Introduction(1)
         </div>
       </div>
