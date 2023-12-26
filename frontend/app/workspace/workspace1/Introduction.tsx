@@ -42,7 +42,7 @@ const Introduction = (props: {}) => {
           </li>
 
           <li>
-            FRAMEWORKS/LIBRARIES: Reactjs, Tailwind-CSS, NodeJs, NextJs, Laravel
+            FRAMEWORKS/LIBRARIES: Reactjs, Tailwind-CSS, NodeJs, NextJs,Flutter,Laravel
           </li>
 
           <li>
