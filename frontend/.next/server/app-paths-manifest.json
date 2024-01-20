@@ -1,8 +1,8 @@
 {
-  "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/workspace/workspace1/page": "app/workspace/workspace1/page.js",
   "/workspace/workspace5/page": "app/workspace/workspace5/page.js",
   "/workspace/workspace3/page": "app/workspace/workspace3/page.js",
-  "/workspace/workspace4/page": "app/workspace/workspace4/page.js"
+  "/workspace/workspace4/page": "app/workspace/workspace4/page.js",
+  "/workspace/workspace3/readblogs/page": "app/workspace/workspace3/readblogs/page.js"
 }

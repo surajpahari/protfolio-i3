@@ -1,0 +1,33 @@
+
+# Node.js
+node_modules
+
+# Next.js build output
+/.next
+
+# Environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor directories and files
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Cache and logs
+.cache
+.log
+logs
+
+# Dependency directories
+pnp
+.pnp
+.pnp.js
+
+# Yarn integrity file
+.yarn-integrity

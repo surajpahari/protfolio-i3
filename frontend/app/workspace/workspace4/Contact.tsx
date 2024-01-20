@@ -43,10 +43,10 @@ const Contact = () => {
               <textarea className="block w-full h-32 p-2 text-sm border overflow-y-auto outline-none resize-none rounded-md focus:outline-none" placeholder="Enter your text here"></textarea>
             </div>
           </div>
-          <div className="flex justify-end">
-            <div className="border border-blue-500 p-2 rounded">
+          <div className="flex justify-end mt-4">
+            <button className="hover:text-white hover:bg-green-700 border border-blue-500 p-2 rounded">
               Send
-            </div>
+            </button>
           </div>
         </div>
       </div>

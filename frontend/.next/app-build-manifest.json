@@ -35,6 +35,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/workspace/workspace4/page.js"
+    ],
+    "/workspace/workspace3/readblogs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/workspace/workspace3/readblogs/page.js"
+    ],
+    "/workspace/workspace3/readblogs/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/workspace/workspace3/readblogs/not-found.js"
     ]
   }
 }
